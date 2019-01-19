@@ -91,10 +91,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="Swoosh" destination="EgK-qi-63y" id="bw3-F3-SrO"/>
-                        <outlet property="bgimg" destination="w4z-au-MMe" id="G58-tf-neq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
