@@ -45,8 +45,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swooshLogo" translatesAutoresizingMaskIntoConstraints="NO" id="EgK-qi-63y">
                                 <rect key="frame" x="128" y="40" width="119" height="20"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xC3-5G-uG6">
-                                <rect key="frame" x="67.5" y="277" width="240" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a team in your city &amp; dominate the league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xC3-5G-uG6">
+                                <rect key="frame" x="67.5" y="307" width="240" height="41"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -75,6 +75,7 @@
                             <constraint firstItem="EgK-qi-63y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Euc-mg-8Yx"/>
                             <constraint firstItem="Vpe-bu-eh4" firstAttribute="top" secondItem="EgK-qi-63y" secondAttribute="bottom" constant="98" id="FA8-Jx-BUw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m8z-s4-MPM" secondAttribute="bottom" constant="24" id="GIk-HT-PSp"/>
+                            <constraint firstItem="xC3-5G-uG6" firstAttribute="top" secondItem="vgK-jR-R0N" secondAttribute="bottom" constant="50" id="GtC-5H-lg3"/>
                             <constraint firstItem="w4z-au-MMe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MOX-cg-YpG"/>
                             <constraint firstItem="vgK-jR-R0N" firstAttribute="top" secondItem="Vpe-bu-eh4" secondAttribute="bottom" id="P0m-wE-UVR"/>
                             <constraint firstItem="w4z-au-MMe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="afm-8Z-0ad"/>
