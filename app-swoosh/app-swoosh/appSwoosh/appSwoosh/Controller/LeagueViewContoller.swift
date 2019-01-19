@@ -43,6 +43,11 @@ class LeagueViewContoller: UIViewController {
         selectLeague(leagueType: "coed")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillViewController = segue.destination as? SkillViewController {
+            skillViewController.player = player
+        }
+    }
     
     /*
     // MARK: - Navigation
