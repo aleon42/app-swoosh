@@ -141,6 +141,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="3eC-vL-Uqa" eventType="touchUpInside" id="p1y-ou-EB0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cza-Vf-Daa" customClass="BorderButton" customModule="appSwoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="56" width="345" height="35"/>
@@ -159,6 +162,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="3eC-vL-Uqa" eventType="touchUpInside" id="dcU-8I-zCB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1k-Am-Oli" customClass="BorderButton" customModule="appSwoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="112" width="345" height="35"/>
@@ -177,11 +183,14 @@
                                                 </fragment>
                                             </attributedString>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="3eC-vL-Uqa" eventType="touchUpInside" id="ewy-em-ebz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <viewLayoutGuide key="safeArea" id="T2G-fa-NUd"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7kz-C7-Aai" customClass="BorderButton" customModule="appSwoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7kz-C7-Aai" customClass="BorderButton" customModule="appSwoosh" customModuleProvider="target">
                                 <rect key="frame" x="15" y="608" width="345" height="39"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39695202460000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -238,6 +247,7 @@
                         <viewLayoutGuide key="safeArea" id="tf8-gZ-Cpu"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="7kz-C7-Aai" id="IVh-jK-oHY"/>
                         <segue destination="k5M-eO-WBi" kind="show" identifier="skillViewControllerSegue" id="bDb-VY-J3J"/>
                     </connections>
                 </viewController>

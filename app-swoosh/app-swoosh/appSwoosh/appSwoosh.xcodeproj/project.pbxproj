@@ -15,6 +15,7 @@
 		1D010CB621F15FD800437979 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D010CB521F15FD800437979 /* BorderButton.swift */; };
 		1D28C53B21F38B1500F38901 /* LeagueViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28C53A21F38B1500F38901 /* LeagueViewContoller.swift */; };
 		1D28C53D21F38B3100F38901 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28C53C21F38B3100F38901 /* SkillViewController.swift */; };
+		1D28C53F21F394D200F38901 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D28C53E21F394D200F38901 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1D010CB521F15FD800437979 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		1D28C53A21F38B1500F38901 /* LeagueViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewContoller.swift; sourceTree = "<group>"; };
 		1D28C53C21F38B3100F38901 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		1D28C53E21F394D200F38901 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		1D28C53921F38A4800F38901 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D28C53E21F394D200F38901 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				1D010CA521F157FD00437979 /* WelcomeViewController.swift in Sources */,
 				1D28C53D21F38B3100F38901 /* SkillViewController.swift in Sources */,
 				1D010CA321F157FD00437979 /* AppDelegate.swift in Sources */,
+				1D28C53F21F394D200F38901 /* Player.swift in Sources */,
 				1D010CB621F15FD800437979 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
