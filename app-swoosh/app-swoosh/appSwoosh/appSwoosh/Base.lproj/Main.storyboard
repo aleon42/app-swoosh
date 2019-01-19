@@ -198,6 +198,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="3eC-vL-Uqa" eventType="touchUpInside" id="P8E-75-vy7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNO-UX-4q3">
                                 <rect key="frame" x="15" y="10" width="29" height="24"/>
@@ -234,6 +237,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tf8-gZ-Cpu"/>
                     </view>
+                    <connections>
+                        <segue destination="k5M-eO-WBi" kind="show" identifier="skillViewControllerSegue" id="bDb-VY-J3J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfn-hV-SOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="snV-0v-tL5" userLabel="Exit" sceneMemberID="exit"/>
